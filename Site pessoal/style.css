@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #050505;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Cabeçalho gamer */
+header {
+    background: linear-gradient(90deg, #001);
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px #0074ff
+}
+
+header h1 {
+    font-size: 2.8em;
+    text-shadow: 0 0 10px #00d4ff;
+}
+
+header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* Conteúdo */
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom:30px;
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 12px;
+    border:1px solid #0074ff;
+    box-shadow: 0 0 10px #0074ff33;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px #00d4ff;
+}
+
+h2 {
+    margin-bottom:10px;
+    color: #00d4ff;
+    text-shadow:0 0 5px #00d4ff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom:8px;
+}
+
+/* Botão do GitHub */
+.github-btn {
+    display: inline-block;
+margin-top:15px;
+    padding:10px 20px;
+    background:linear-gradient(90deg, #0074ff, #00d4ff);
+    color: #050505;
+    text-decoration: none;
+    font-weight: bold;
+    border: radius 5px;
+    transition:0.3s;
+    box-shadow: 0 0 10px #00d4ff;
+}
+
+.github-btn:hover {
+    background: linear-gradient(90deg, #00d4ff, #0074ff);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00d4ff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding:15px;
+    background-color: #0f0f0f;
+    border-top: 1px solid #0074ff
+}
